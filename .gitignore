@@ -1,0 +1,32 @@
+# --- Node / Vite (frontend) ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# --- Java / Maven (backend) ---
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- IDEs ---
+.idea/
+*.iml
+
+# VS Code workspace settings (optional)
+.vscode/
