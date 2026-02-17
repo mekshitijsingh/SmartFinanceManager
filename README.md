@@ -4,9 +4,9 @@ A production-style full-stack Finance Management SaaS application built using Sp
 
 🚀 Key Features
 
-🔐 JWT Authentication & Authorization
+*🔐 JWT Authentication & Authorization
 
-👥 Role-Based Access (USER / ADMIN)
+*👥 Role-Based Access (USER / ADMIN)
 
 💰 Transaction Management (CRUD)
 
