@@ -12,6 +12,9 @@ backend/.mvn/wrapper/maven-wrapper.jar
 .env.*
 !.env.example
 
+# --- Local notes ---
+notes.txt
+
 # --- Logs ---
 *.log
 npm-debug.log*
