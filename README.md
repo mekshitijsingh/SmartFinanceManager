@@ -1,19 +1,24 @@
-# Smart Finance Manager 💰
+# 💰 Smart Finance Manager
 
-A production-style full-stack **Finance Management SaaS** application built using **Spring Boot**, **MySQL**, and **React** with **JWT-based authentication** and **role-based access control**.
+A production-grade full-stack Financial Management SaaS application built using **Spring Boot**, **React**, **PostgreSQL**, **Docker**, **Render**, and **Vercel** with secure **JWT-based authentication** and **role-based access control**.
+
+## 🔗 Live Demo
+
+- Frontend: https://smart-finance-manager-tawny.vercel.app
+- Backend API: https://smartfinancemanager1.onrender.com
 
 ## 🚀 Key Features
 
-- 🔐 JWT Authentication & Authorization
-- 👥 Role-Based Access (USER / ADMIN)
-- 💰 Transaction Management (CRUD)
-- 📄 Pagination & Date Filtering
-- 📊 Monthly Income vs Expense Charts
-- 📥 CSV Export
-- 🔄 Auto Logout on Token Expiry
-- ⚙️ Global Exception Handling
-- 🧠 Field-Level Validation Mapping
-- 🛡️ Multi-User Data Isolation
+- 🔐 JWT-based stateless authentication
+- 👥 Role-Based Access Control (USER / ADMIN)
+- 💰 Income & Expense management (CRUD)
+- 📄 Pagination and date-range filtering
+- 📊 Monthly income vs expense analytics
+- 📥 CSV export functionality
+- 🔄 Automatic logout on token expiry
+- ⚙️ Global exception handling
+- 🧠 Field-level validation error mapping
+- 🛡️ Multi-user data isolation
 
 ## 🏗 Architecture
 
@@ -22,29 +27,45 @@ A production-style full-stack **Finance Management SaaS** application built usin
 - Spring Boot
 - Spring Security (JWT)
 - JPA / Hibernate
-- MySQL
-- Layered architecture: **Controller → Service → Repository**
+- PostgreSQL (cloud hosted)
+- Layered architecture: Controller → Service → Repository
+- Dockerized for containerized deployment
 
 ### Frontend
 
 - React (Vite)
 - Tailwind CSS
-- Axios Interceptors
-- Recharts
-- Centralized AuthContext
+- Axios with interceptors
+- Recharts for data visualization
+- Centralized authentication using Context API
 
 ## 🔐 Security Highlights
 
 - Stateless JWT authentication
-- Client-side token lifecycle management
 - Role-based endpoint protection
-- Automatic logout on token expiration
-- Secure user-level data filtering
+- Secure password hashing with BCrypt
+- Client-side token lifecycle management
+- CORS configuration for secure cross-origin deployment
+- Environment-based configuration for production secrets
+
+## 🚀 Deployment
+
+- Backend containerized using Docker
+- Deployed on Render with managed PostgreSQL
+- Frontend deployed on Vercel
+- Production environment variables configured securely
+- CORS configured for cross-origin communication
+
+## 🧠 Intelligent Features
+
+- Dynamic analytics dashboard
+- Real-time income/expense visualization
+- Intelligent tax-saving recommendation logic based on spending patterns
 
 ## 📦 Future Improvements
 
-- Dockerization
-- Deployment (AWS / Railway / Render)
-- Admin dashboard
-- Refresh token system
-- Unit testing
+- Refresh token implementation
+- Admin management dashboard
+- Budget prediction module
+- Dark mode & mobile UI optimization
+- Unit & integration testing
